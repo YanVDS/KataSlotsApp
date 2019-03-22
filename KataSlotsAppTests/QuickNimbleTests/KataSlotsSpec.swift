@@ -23,7 +23,7 @@ class KataSlotsSpec: QuickSpec {
                     _ = slotsViewController.view
                 }
 
-                it("returns 2 slots") {
+                it("returns 3 slots") {
                     expect(slotsViewController.numberOfSlots()).to(equal(3))
                 }
             }
