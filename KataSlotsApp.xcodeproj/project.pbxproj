@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247EB9E569D7840A05D53293 /* Pods_KataSlotsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8804C9FD5265EE3C13645AD /* Pods_KataSlotsApp.framework */; };
+		A0111E369D4EFA0A801DDEAE /* Pods_KataSlotsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D13B19382EB8F2A523961A /* Pods_KataSlotsAppUITests.framework */; };
+		B20BB11C2244ED30007E8F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB11B2244ED30007E8F06 /* AppDelegate.swift */; };
+		B20BB11E2244ED30007E8F06 /* KataSlotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB11D2244ED30007E8F06 /* KataSlotsViewController.swift */; };
+		B20BB1212244ED30007E8F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20BB11F2244ED30007E8F06 /* Main.storyboard */; };
+		B20BB1232244ED32007E8F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20BB1222244ED32007E8F06 /* Assets.xcassets */; };
+		B20BB1262244ED32007E8F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20BB1242244ED32007E8F06 /* LaunchScreen.storyboard */; };
+		B20BB1312244ED32007E8F06 /* KataSlotsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB1302244ED32007E8F06 /* KataSlotsAppTests.swift */; };
+		B20BB13C2244ED32007E8F06 /* KataSlotsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB13B2244ED32007E8F06 /* KataSlotsAppUITests.swift */; };
+		B20BB14E2244F496007E8F06 /* KataSlotsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB14D2244F496007E8F06 /* KataSlotsSpec.swift */; };
+		B20BB1522244F8E4007E8F06 /* KataSlotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB11D2244ED30007E8F06 /* KataSlotsViewController.swift */; };
+		C6F96112B70D643E5F47FBD9 /* Pods_KataSlotsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125BDC610DCDD50DF4CF42B7 /* Pods_KataSlotsAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20BB12D2244ED32007E8F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20BB1102244ED30007E8F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20BB1172244ED30007E8F06;
+			remoteInfo = KataSlotsApp;
+		};
+		B20BB1382244ED32007E8F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20BB1102244ED30007E8F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20BB1172244ED30007E8F06;
+			remoteInfo = KataSlotsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125BDC610DCDD50DF4CF42B7 /* Pods_KataSlotsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataSlotsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A3D7F96D6842D9FF56DCED /* Pods-KataSlotsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSlotsAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataSlotsAppTests/Pods-KataSlotsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E08C610405BBD61C540A498 /* Pods-KataSlotsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSlotsAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataSlotsAppUITests/Pods-KataSlotsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		934BD39D2DD6A9DCCD2ACB47 /* Pods-KataSlotsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSlotsAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataSlotsAppTests/Pods-KataSlotsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A05A6681A8D72237B9FF034E /* Pods-KataSlotsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSlotsAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataSlotsAppUITests/Pods-KataSlotsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0D13B19382EB8F2A523961A /* Pods_KataSlotsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataSlotsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20BB1182244ED30007E8F06 /* KataSlotsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataSlotsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20BB11B2244ED30007E8F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B20BB11D2244ED30007E8F06 /* KataSlotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataSlotsViewController.swift; sourceTree = "<group>"; };
+		B20BB1202244ED30007E8F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B20BB1222244ED32007E8F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20BB1252244ED32007E8F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B20BB1272244ED32007E8F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20BB12C2244ED32007E8F06 /* KataSlotsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataSlotsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20BB1302244ED32007E8F06 /* KataSlotsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataSlotsAppTests.swift; sourceTree = "<group>"; };
+		B20BB1322244ED32007E8F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20BB1372244ED32007E8F06 /* KataSlotsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataSlotsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20BB13B2244ED32007E8F06 /* KataSlotsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataSlotsAppUITests.swift; sourceTree = "<group>"; };
+		B20BB13D2244ED32007E8F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20BB14D2244F496007E8F06 /* KataSlotsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataSlotsSpec.swift; sourceTree = "<group>"; };
+		B50D0D065BF5A5842338B013 /* Pods-KataSlotsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSlotsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataSlotsApp/Pods-KataSlotsApp.release.xcconfig"; sourceTree = "<group>"; };
+		B8804C9FD5265EE3C13645AD /* Pods_KataSlotsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataSlotsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF7E16E02F0CC38803F7111 /* Pods-KataSlotsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSlotsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataSlotsApp/Pods-KataSlotsApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20BB1152244ED30007E8F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247EB9E569D7840A05D53293 /* Pods_KataSlotsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BB1292244ED32007E8F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F96112B70D643E5F47FBD9 /* Pods_KataSlotsAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BB1342244ED32007E8F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0111E369D4EFA0A801DDEAE /* Pods_KataSlotsAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46164020818A9A57448B54DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8804C9FD5265EE3C13645AD /* Pods_KataSlotsApp.framework */,
+				125BDC610DCDD50DF4CF42B7 /* Pods_KataSlotsAppTests.framework */,
+				B0D13B19382EB8F2A523961A /* Pods_KataSlotsAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7EFB128EC42E497A998ABCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBF7E16E02F0CC38803F7111 /* Pods-KataSlotsApp.debug.xcconfig */,
+				B50D0D065BF5A5842338B013 /* Pods-KataSlotsApp.release.xcconfig */,
+				934BD39D2DD6A9DCCD2ACB47 /* Pods-KataSlotsAppTests.debug.xcconfig */,
+				35A3D7F96D6842D9FF56DCED /* Pods-KataSlotsAppTests.release.xcconfig */,
+				A05A6681A8D72237B9FF034E /* Pods-KataSlotsAppUITests.debug.xcconfig */,
+				8E08C610405BBD61C540A498 /* Pods-KataSlotsAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B20BB10F2244ED30007E8F06 = {
+			isa = PBXGroup;
+			children = (
+				B20BB11A2244ED30007E8F06 /* KataSlotsApp */,
+				B20BB12F2244ED32007E8F06 /* KataSlotsAppTests */,
+				B20BB13A2244ED32007E8F06 /* KataSlotsAppUITests */,
+				B20BB1192244ED30007E8F06 /* Products */,
+				A7EFB128EC42E497A998ABCF /* Pods */,
+				46164020818A9A57448B54DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B20BB1192244ED30007E8F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20BB1182244ED30007E8F06 /* KataSlotsApp.app */,
+				B20BB12C2244ED32007E8F06 /* KataSlotsAppTests.xctest */,
+				B20BB1372244ED32007E8F06 /* KataSlotsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20BB11A2244ED30007E8F06 /* KataSlotsApp */ = {
+			isa = PBXGroup;
+			children = (
+				B20BB11B2244ED30007E8F06 /* AppDelegate.swift */,
+				B20BB11D2244ED30007E8F06 /* KataSlotsViewController.swift */,
+				B20BB11F2244ED30007E8F06 /* Main.storyboard */,
+				B20BB1222244ED32007E8F06 /* Assets.xcassets */,
+				B20BB1242244ED32007E8F06 /* LaunchScreen.storyboard */,
+				B20BB1272244ED32007E8F06 /* Info.plist */,
+			);
+			path = KataSlotsApp;
+			sourceTree = "<group>";
+		};
+		B20BB12F2244ED32007E8F06 /* KataSlotsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20BB1492244F398007E8F06 /* QuickNimbleTests */,
+				B20BB1302244ED32007E8F06 /* KataSlotsAppTests.swift */,
+				B20BB1322244ED32007E8F06 /* Info.plist */,
+			);
+			path = KataSlotsAppTests;
+			sourceTree = "<group>";
+		};
+		B20BB13A2244ED32007E8F06 /* KataSlotsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20BB13B2244ED32007E8F06 /* KataSlotsAppUITests.swift */,
+				B20BB13D2244ED32007E8F06 /* Info.plist */,
+			);
+			path = KataSlotsAppUITests;
+			sourceTree = "<group>";
+		};
+		B20BB1492244F398007E8F06 /* QuickNimbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20BB14D2244F496007E8F06 /* KataSlotsSpec.swift */,
+			);
+			path = QuickNimbleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20BB1172244ED30007E8F06 /* KataSlotsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20BB1402244ED32007E8F06 /* Build configuration list for PBXNativeTarget "KataSlotsApp" */;
+			buildPhases = (
+				C565C3D38CF7F274A3C3E5A6 /* [CP] Check Pods Manifest.lock */,
+				B20BB1142244ED30007E8F06 /* Sources */,
+				B20BB1152244ED30007E8F06 /* Frameworks */,
+				B20BB1162244ED30007E8F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataSlotsApp;
+			productName = KataSlotsApp;
+			productReference = B20BB1182244ED30007E8F06 /* KataSlotsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20BB12B2244ED32007E8F06 /* KataSlotsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20BB1432244ED32007E8F06 /* Build configuration list for PBXNativeTarget "KataSlotsAppTests" */;
+			buildPhases = (
+				9065FA7F952915FC4A11A411 /* [CP] Check Pods Manifest.lock */,
+				B20BB1282244ED32007E8F06 /* Sources */,
+				B20BB1292244ED32007E8F06 /* Frameworks */,
+				B20BB12A2244ED32007E8F06 /* Resources */,
+				58A9374B58A54654BB23D329 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20BB12E2244ED32007E8F06 /* PBXTargetDependency */,
+			);
+			name = KataSlotsAppTests;
+			productName = KataSlotsAppTests;
+			productReference = B20BB12C2244ED32007E8F06 /* KataSlotsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20BB1362244ED32007E8F06 /* KataSlotsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20BB1462244ED32007E8F06 /* Build configuration list for PBXNativeTarget "KataSlotsAppUITests" */;
+			buildPhases = (
+				784F03B74153EE3937E59123 /* [CP] Check Pods Manifest.lock */,
+				B20BB1332244ED32007E8F06 /* Sources */,
+				B20BB1342244ED32007E8F06 /* Frameworks */,
+				B20BB1352244ED32007E8F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20BB1392244ED32007E8F06 /* PBXTargetDependency */,
+			);
+			name = KataSlotsAppUITests;
+			productName = KataSlotsAppUITests;
+			productReference = B20BB1372244ED32007E8F06 /* KataSlotsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20BB1102244ED30007E8F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TeleSoftas;
+				TargetAttributes = {
+					B20BB1172244ED30007E8F06 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B20BB12B2244ED32007E8F06 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B20BB1172244ED30007E8F06;
+					};
+					B20BB1362244ED32007E8F06 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B20BB1172244ED30007E8F06;
+					};
+				};
+			};
+			buildConfigurationList = B20BB1132244ED30007E8F06 /* Build configuration list for PBXProject "KataSlotsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20BB10F2244ED30007E8F06;
+			productRefGroup = B20BB1192244ED30007E8F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20BB1172244ED30007E8F06 /* KataSlotsApp */,
+				B20BB12B2244ED32007E8F06 /* KataSlotsAppTests */,
+				B20BB1362244ED32007E8F06 /* KataSlotsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20BB1162244ED30007E8F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20BB1262244ED32007E8F06 /* LaunchScreen.storyboard in Resources */,
+				B20BB1232244ED32007E8F06 /* Assets.xcassets in Resources */,
+				B20BB1212244ED30007E8F06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BB12A2244ED32007E8F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BB1352244ED32007E8F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58A9374B58A54654BB23D329 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KataSlotsAppTests/Pods-KataSlotsAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KataSlotsAppTests/Pods-KataSlotsAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		784F03B74153EE3937E59123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KataSlotsAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9065FA7F952915FC4A11A411 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KataSlotsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C565C3D38CF7F274A3C3E5A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KataSlotsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20BB1142244ED30007E8F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20BB11E2244ED30007E8F06 /* KataSlotsViewController.swift in Sources */,
+				B20BB11C2244ED30007E8F06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BB1282244ED32007E8F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20BB1312244ED32007E8F06 /* KataSlotsAppTests.swift in Sources */,
+				B20BB1522244F8E4007E8F06 /* KataSlotsViewController.swift in Sources */,
+				B20BB14E2244F496007E8F06 /* KataSlotsSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BB1332244ED32007E8F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20BB13C2244ED32007E8F06 /* KataSlotsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20BB12E2244ED32007E8F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20BB1172244ED30007E8F06 /* KataSlotsApp */;
+			targetProxy = B20BB12D2244ED32007E8F06 /* PBXContainerItemProxy */;
+		};
+		B20BB1392244ED32007E8F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20BB1172244ED30007E8F06 /* KataSlotsApp */;
+			targetProxy = B20BB1382244ED32007E8F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B20BB11F2244ED30007E8F06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20BB1202244ED30007E8F06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B20BB1242244ED32007E8F06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20BB1252244ED32007E8F06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20BB13E2244ED32007E8F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20BB13F2244ED32007E8F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20BB1412244ED32007E8F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF7E16E02F0CC38803F7111 /* Pods-KataSlotsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WL2MUN55;
+				INFOPLIST_FILE = KataSlotsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.KataSlotsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20BB1422244ED32007E8F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50D0D065BF5A5842338B013 /* Pods-KataSlotsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WL2MUN55;
+				INFOPLIST_FILE = KataSlotsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.KataSlotsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20BB1442244ED32007E8F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934BD39D2DD6A9DCCD2ACB47 /* Pods-KataSlotsAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WL2MUN55;
+				INFOPLIST_FILE = KataSlotsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.KataSlotsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataSlotsApp.app/KataSlotsApp";
+			};
+			name = Debug;
+		};
+		B20BB1452244ED32007E8F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A3D7F96D6842D9FF56DCED /* Pods-KataSlotsAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WL2MUN55;
+				INFOPLIST_FILE = KataSlotsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.KataSlotsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataSlotsApp.app/KataSlotsApp";
+			};
+			name = Release;
+		};
+		B20BB1472244ED32007E8F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05A6681A8D72237B9FF034E /* Pods-KataSlotsAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WL2MUN55;
+				INFOPLIST_FILE = KataSlotsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.KataSlotsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KataSlotsApp;
+			};
+			name = Debug;
+		};
+		B20BB1482244ED32007E8F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E08C610405BBD61C540A498 /* Pods-KataSlotsAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WL2MUN55;
+				INFOPLIST_FILE = KataSlotsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.KataSlotsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KataSlotsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20BB1132244ED30007E8F06 /* Build configuration list for PBXProject "KataSlotsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20BB13E2244ED32007E8F06 /* Debug */,
+				B20BB13F2244ED32007E8F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20BB1402244ED32007E8F06 /* Build configuration list for PBXNativeTarget "KataSlotsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20BB1412244ED32007E8F06 /* Debug */,
+				B20BB1422244ED32007E8F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20BB1432244ED32007E8F06 /* Build configuration list for PBXNativeTarget "KataSlotsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20BB1442244ED32007E8F06 /* Debug */,
+				B20BB1452244ED32007E8F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20BB1462244ED32007E8F06 /* Build configuration list for PBXNativeTarget "KataSlotsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20BB1472244ED32007E8F06 /* Debug */,
+				B20BB1482244ED32007E8F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20BB1102244ED30007E8F06 /* Project object */;
+}

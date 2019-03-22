@@ -1,0 +1,6 @@
+framework module Pods_KataSlotsAppTests {
+  umbrella header "Pods-KataSlotsAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
