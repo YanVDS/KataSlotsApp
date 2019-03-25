@@ -18,6 +18,8 @@
 		B20BB13C2244ED32007E8F06 /* KataSlotsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB13B2244ED32007E8F06 /* KataSlotsAppUITests.swift */; };
 		B20BB14E2244F496007E8F06 /* KataSlotsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB14D2244F496007E8F06 /* KataSlotsSpec.swift */; };
 		B20BB1522244F8E4007E8F06 /* KataSlotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB11D2244ED30007E8F06 /* KataSlotsViewController.swift */; };
+		B20BB15422450839007E8F06 /* VendorMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB15322450839007E8F06 /* VendorMachine.swift */; };
+		B20BB15622451834007E8F06 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB15522451834007E8F06 /* Coin.swift */; };
 		C6F96112B70D643E5F47FBD9 /* Pods_KataSlotsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125BDC610DCDD50DF4CF42B7 /* Pods_KataSlotsAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		B20BB13B2244ED32007E8F06 /* KataSlotsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataSlotsAppUITests.swift; sourceTree = "<group>"; };
 		B20BB13D2244ED32007E8F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B20BB14D2244F496007E8F06 /* KataSlotsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataSlotsSpec.swift; sourceTree = "<group>"; };
+		B20BB15322450839007E8F06 /* VendorMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorMachine.swift; sourceTree = "<group>"; };
+		B20BB15522451834007E8F06 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		B50D0D065BF5A5842338B013 /* Pods-KataSlotsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSlotsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KataSlotsApp/Pods-KataSlotsApp.release.xcconfig"; sourceTree = "<group>"; };
 		B8804C9FD5265EE3C13645AD /* Pods_KataSlotsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KataSlotsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF7E16E02F0CC38803F7111 /* Pods-KataSlotsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KataSlotsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KataSlotsApp/Pods-KataSlotsApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 			children = (
 				B20BB11B2244ED30007E8F06 /* AppDelegate.swift */,
 				B20BB11D2244ED30007E8F06 /* KataSlotsViewController.swift */,
+				B20BB15322450839007E8F06 /* VendorMachine.swift */,
+				B20BB15522451834007E8F06 /* Coin.swift */,
 				B20BB11F2244ED30007E8F06 /* Main.storyboard */,
 				B20BB1222244ED32007E8F06 /* Assets.xcassets */,
 				B20BB1242244ED32007E8F06 /* LaunchScreen.storyboard */,
@@ -389,7 +395,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20BB15422450839007E8F06 /* VendorMachine.swift in Sources */,
 				B20BB11E2244ED30007E8F06 /* KataSlotsViewController.swift in Sources */,
+				B20BB15622451834007E8F06 /* Coin.swift in Sources */,
 				B20BB11C2244ED30007E8F06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
